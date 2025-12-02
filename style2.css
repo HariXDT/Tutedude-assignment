@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;  
+    background-color: #f1f1f1;
+    overflow: hidden;
+}   
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    text-decoration: none;  
+}   
+li a{
+    text-decoration: none;
+    color: #000;
+}   
+.btn-User{
+    font-weight: 600;
+    display: block;
+    padding: 15px 20px;
+    background-color: #d7e5ef;
+    color: #32B5FF;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    border-color: none;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f1f1f1;
+    z-index: 1000;
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    max-height: 100vh;
+    margin-top: 20px;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.left{
+    width: 50%;
+    padding: 120px;
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.left h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}   
+.left p{
+    
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+.container h2{
+    color: #46ddf7;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.img{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.img img{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+.right{
+    width: 50%;
+    padding: 100px;
+    max-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+
+.btn{
+    font-weight: 600;
+    display: block;
+    padding: 15px 20px;
+    background-color: #8DF0FA;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    border-color: #8DF0FA;
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: #000;
+    border-color: #000;  
+}
