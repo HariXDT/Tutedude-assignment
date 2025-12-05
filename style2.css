@@ -19,15 +19,26 @@ body{
 
 .container{
     max-width: 1200px;
+    justify-content: center;
     margin: auto;
     /* padding: 20px; */
 }
 
 .nav{
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+.opacity{
+    opacity: 0.5;
+}
+
+.logo img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}   
 
 .nav-links{
     display: flex;
@@ -85,12 +96,16 @@ header{
     font-size: 20px;
     margin-bottom: 25px;
 }
-.container h2{
-    color: #46ddf7;
-    font-size: 50px;
-    margin-bottom: 20px;
-}
 
+.container h1{
+    color: #000000;
+    font-size: 50px;
+    margin-bottom: 20px ;
+    line-height: 1.3;
+}
+.container h1 span{
+    color: #8DF0FA;
+}
 .img{
     width: 400px;
     height: 400px;
@@ -106,7 +121,7 @@ header{
     object-fit: contain;
 }
 .right{
-    width: 50%;
+    width: auto;
     height: 100%;
     display: flex;
     align-items: center;
@@ -114,8 +129,8 @@ header{
 }
 .btn-container{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    /* align-items: auto; */
 }   
 
 .btn{
@@ -135,3 +150,21 @@ header{
     color: #000;
     border-color: #000;  
 }
+
+/* @media screen and (max-width: 768px) {
+    .hero{
+        flex-direction: column;
+        flex-grow: 1;
+        width: 100%;
+        
+    }   
+    .left{
+        width: 100%;
+    }
+    .right{
+        width: 100%;
+    }
+    .btn-container{
+        justify-content: center;
+    }
+}    */
