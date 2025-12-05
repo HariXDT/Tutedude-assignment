@@ -23,6 +23,11 @@ body{
     margin: auto;
     /* padding: 20px; */
 }
+.containers{
+    max-width: 1200px;
+    justify-content: center;
+    /* padding: 20px; */
+}   
 
 .nav{
     
@@ -82,28 +87,28 @@ header{
 .left{
     width: 50%;
     height: 100%;   
-    padding: 120px;
+    padding:0 120px;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 .left h1{
     font-size: 50px;
-    margin-bottom: 20px;
-}   
+}
+
 .left p{
     
     font-size: 20px;
     margin-bottom: 25px;
 }
 
-.container h1{
+.containers h1{
     color: #000000;
     font-size: 50px;
-    margin-bottom: 20px ;
+    margin-bottom: 5px ;
     line-height: 1.3;
 }
-.container h1 span{
+.containers h1 span{
     color: #8DF0FA;
 }
 .img{
@@ -131,6 +136,7 @@ header{
     display: flex;
     justify-content: left;
     /* align-items: auto; */
+    margin: 0%;
 }   
 
 .btn{
